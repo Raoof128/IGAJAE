@@ -41,3 +41,6 @@ target-version = ['py39']
 python_version = "3.9"
 strict = true
 ignore_missing_imports = true
+
+[tool.setuptools]
+packages = ["backend", "connectors"]
